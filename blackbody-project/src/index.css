@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Cormorant+Garamond:wght@600;700&display=swap');
+
+:root {
+  --color-bg: #f5efe5;
+  --color-bg-soft: #fffaf4;
+  --color-ink: #172033;
+  --color-muted: #5f6b7b;
+  --color-amber: #ffd58f;
+  --color-orange-deep: #b45309;
+  --font-body: 'Space Grotesk', sans-serif;
+  --font-display: 'Cormorant Garamond', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  background:
+    radial-gradient(circle at top, rgba(255, 212, 143, 0.45), transparent 34%),
+    linear-gradient(180deg, #f8f1e8 0%, #eef4fb 100%);
+  color: var(--color-ink);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
